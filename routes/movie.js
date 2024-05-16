@@ -1,6 +1,5 @@
 const router = require("express").Router();
 const movie = require("../models/movie");
-const { verifyToken } = require("../validation");
 
 //CRUD operations
 
